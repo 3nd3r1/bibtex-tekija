@@ -1,4 +1,2 @@
 # bibtex-tekija
-Pystyy luomaan tietojenkäsittelyn mukaisia bibtexejä
-
-DEV
+Pystyy luomaan Wikipedia url linkistä tietojenkäsittelyn mukaisia bibtex lähteitä.
