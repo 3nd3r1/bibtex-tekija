@@ -1,5 +1,9 @@
 document.getElementById("luobib").onclick = (event) => {
     event.preventDefault();
+    let btn = document.getElementById("copy");
+    btn.className = "btn btn-secondary mt-2";
+    btn.innerHTML = "Kopioi";
+
     let url = (document.getElementById("source_url").value).split("#")[0];
     let type = document.getElementById("source_type").value;
     let title = (url.split("/")[url.split("/").length - 1]).split("#")[0];
@@ -18,6 +22,13 @@ document.getElementById("luobib").onclick = (event) => {
                     url = "${url}",
                     urldate = "${viitattu}"
                 }`;
-            document.getElementById("tulos").innerHTML = result;
+            document.getElementById("tulos").value = result;
     }
+}
+
+document.getElementById("copy").onclick = (event) => {
+    navigator.clipboard.writeText(document.getElementById("tulos").value);
+    let btn = document.getElementById("copy");
+    btn.className = "btn btn-success mt-2"
+    btn.innerHTML = "Kopioitu!"
 }
