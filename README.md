@@ -1,2 +1,2 @@
 # bibtex-tekija
-Pystyy luomaan Wikipedia url linkistä tietojenkäsittelyn mukaisia bibtex lähteitä.
+Pystyy luomaan Wikipedia url linkistä jtkt:n mukaisia bibtex lähteitä.
