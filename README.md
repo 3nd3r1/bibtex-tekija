@@ -1,5 +1,5 @@
 # bibtex-tekija
-Pystyy luomaan tietojenkäsittelyn mukaisia bibtexejä
+Pystyy luomaan jtkt:n mukaisia bibtexejä
 
 0.1 
 - Toimii <3
